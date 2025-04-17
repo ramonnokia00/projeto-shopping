@@ -22,9 +22,9 @@
 </head>
 
 <body class="bg-white ">
-  <header class="flex items-center justify-between pt-[35px] px-[120px]">
+  <header class="flex items-center justify-between  pt-4 px-8 md:pt-[35px] md:px-[60px] lg:pt-[35px] xl:px-[120px]">
     <img src="images/logo.png" alt="">
-    <nav class="flex gap-[65px] items-center">
+    <nav class=" hidden lg:flex lg:gap-[35px] xl:gap-[65px] items-center">
       <a href="">Catalogue</a>
       <a href="">Fashion</a>
       <a href="">Favorite</a>
@@ -32,25 +32,29 @@
       <a href=""
         class="leading-[62px] bg-black text-white px-[22px] rounded block hover:bg-amarelo hover:text-black duration-200">Sign
         Up</a>
-    </nav>
-  </header>
-  <div class="bg-[#F4F6F5] rounded-[8px] ml-[200px] mt-[63px]  w-[1270px] h-[652px]  flex  items-start">
-    <div class="ml-10   ">
-      <h1 class="text-[80px]">Let's<br>Explore<br>Unique <br>Clothes</h1>
-      <p class="">Live For influietial and innovate Fashion!</p>
-      </div>
-      <div class=" pt-[40px] flex ">
-        <img src="images/retangulo_amarelo.png" alt="">
-        <a href="" class="leading-[62px] bg-black text-white rounded block px-[22px] text-center ml-[80px] ">Shop
-          Now</a>
-      </div>
-        <div class="flex pt-[40px] items-end">
-        <img src="images/estrela.png" alt="">
-        <img src="images/mulier_feliz.png" alt="" class="h-[200px] w-[300px]">
-        <img src="images/estrela.png" alt="">
-        <img src="images/estrela.png" alt="">
-      </div>
+    </nav><div class="w-[50px] h-[50px] bg-black rounded-full fixed right-4 bottom-8 flex justify-center items-center lg:hidden">
+      <box-icon name='menu' class="fill-white"></box-icon>
     </div>
+    
+  </header>
+  <main>
+    <section id="banner" class="px-4 lg:px-[60px] xl:px-[120px] pt-4 lg:pt-[30px] xl:pt-[50px]"><a href="">
+    <img src="images/banner_com_estrela.png" alt="" class="w-full"></a>
+  </section>
+    <section id="marcas" class=" bg-amarelo mt-4 lg:mt-[30px] xl:mt-[60px] gap-[15px]xl:px-[120px]  xl:px-[120px] py-[40px]  lg:py-[26px] xl:py-[40px] overflow-x-auto">
+      <div class="flex gap-[30px] *:mix-blend-multiply itens-center lg:grid lg:grid-cols-6
+      xl:gap-[60px] *:max-h-[40px] lg:*:max-h-none  ">
+      <img src="images/H&M.png" alt="H&M">
+      <img src="images/obey.png" alt="obey">
+      <img src="images/shopify.png" alt="shopify">
+      <img src="images/lacoste.png" alt="lacoste">
+      <img src="images/levi's.png" alt="levi">
+      <img src="images/amazon.png" alt="amazon">
+    </div>
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</main>
 </body>
 
 </html>
