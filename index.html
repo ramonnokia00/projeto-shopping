@@ -6,10 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto Shopping</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  
   <script>
     tailwind.config = {
       theme: {
         extend: {
+          fontFamily: {
+        pop: ['Poppins', 'sans-serif'],
+        ala: ["Special Gothic Expanded One, sans-serif"]
+          },
           colors: {
             amarelo: '#E6C744',
             cinza: '#C2C8DA',
@@ -19,6 +24,9 @@
       }
     }
   </script>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&display=swap');
+  </style>
+
 </head>
 
 <body class="bg-white ">
@@ -32,29 +40,72 @@
       <a href=""
         class="leading-[62px] bg-black text-white px-[22px] rounded block hover:bg-amarelo hover:text-black duration-200">Sign
         Up</a>
-    </nav><div class="w-[50px] h-[50px] bg-black rounded-full fixed right-4 bottom-8 flex justify-center items-center lg:hidden">
+    </nav>
+    <div
+      class="w-[50px] h-[50px] bg-black rounded-full fixed right-4 bottom-8 flex justify-center items-center lg:hidden">
       <box-icon name='menu' class="fill-white"></box-icon>
     </div>
-    
+
   </header>
   <main>
     <section id="banner" class="px-4 lg:px-[60px] xl:px-[120px] pt-4 lg:pt-[30px] xl:pt-[50px]"><a href="">
-    <img src="images/banner_com_estrela.png" alt="" class="w-full"></a>
-  </section>
-    <section id="marcas" class=" bg-amarelo mt-4 lg:mt-[30px] xl:mt-[60px] gap-[15px]xl:px-[120px]  xl:px-[120px] py-[40px]  lg:py-[26px] xl:py-[40px] overflow-x-auto">
+        <img src="images/banner_com_estrela.png" alt="" class="w-full"></a>
+    </section>
+    <section id="marcas"
+      class=" bg-amarelo mt-4 lg:mt-[30px] xl:mt-[60px] gap-[15px]xl:px-[120px]  xl:px-[120px] py-[40px]  lg:py-[26px] xl:py-[40px] overflow-x-auto">
       <div class="flex gap-[30px] *:mix-blend-multiply itens-center lg:grid lg:grid-cols-6
       xl:gap-[60px] *:max-h-[40px] lg:*:max-h-none  ">
-      <img src="images/H&M.png" alt="H&M">
-      <img src="images/obey.png" alt="obey">
-      <img src="images/shopify.png" alt="shopify">
-      <img src="images/lacoste.png" alt="lacoste">
-      <img src="images/levi's.png" alt="levi">
-      <img src="images/amazon.png" alt="amazon">
+        <img src="images/H&M.png" alt="H&M">
+        <img src="images/obey.png" alt="obey">
+        <img src="images/shopify.png" alt="shopify">
+        <img src="images/lacoste.png" alt="lacoste">
+        <img src="images/levi's.png" alt="levi">
+        <img src="images/amazon.png" alt="amazon">
+      </div>
+    </section>
+    <H1 class="ml-[100px] mt-[69px] font-ala text-4xl "> <img src="images/retangulo_amarelo.png" alt=""
+        class="absolute mt-[40px] xl:ml-[260px] "> New_Arrival</H1>
+    <section id="new_arrival" class=" lg:grid-cols-3 justify-between lg:grid mr-[120px] md:w-[]  ">
+      
+      <div class="ml-[106px] mt-[101px] xl:h-[808px] xl:w-[484px] h-[404px] w-[284px] " ><a href=""> <img src="images/moça_cinza.png" alt=""
+          class="xl:w-[483px] xl:h-[704px] rounded-[20px] md:mr-[50px] ">
+          <div class="pt-[30px] flex justify-between font-ala">
+            <h3>Hoodies & Sweetshirt</h3>
+            <p class=" md:absolute mb-[35px] text-gray-500 hover:text-yellow-300 transition-[200ms] ">Explore Now!</p>
+            <p class=" md:absolute xl:ml-[450px] mb-[0px] md:ml-[250px] "> - -></p>
+        </a>
+      </div>
+      </div>
+      <div class="ml-[106px] mt-[101px] xl:h-[808px] xl:w-[484px]  h-[404px] w-[284px] "><a href=""> <img src="images/moça_roxa.png" alt=""
+          class="xl:w-[483px] xl:h-[704px] rounded-[20px]">
+          <div class="pt-[30px] flex justify-between font-ala">
+            <h3>Hoodies & Sweetshirt</h3>
+            <p class="  md:absolute mb-[35px] text-gray-500 hover:text-yellow-300 transition-[200ms] ">Explore Now!</p>
+            <p class=" md:absolute xl:ml-[450px] mb-[0px] md:ml-[250px] "> - -></p>
+        </a>
+      </div>
+      </div>
+      <div class="ml-[106px] mt-[101px] xl:h-[808px] xl:w-[484px] h-[404px] w-[284px]" > <a href=""><img src="images/moça_azul.png" alt=""
+          class="xl:w-[483px] xl:h-[704px] rounded-[20px]" >
+          <div class="pt-[30px] flex justify-between font-ala">
+            <h3>Hoodies & Sweetshirt</h3>
+            <p class=" md:absolute mb-[35px] text-gray-500 hover:text-yellow-300 transition-[200ms] pt-[25px] ">Explore Now!</p>
+            <p class=" md:absolute xl:ml-[450px] mb-[0px] md::hidden md:ml-[250px] xl:mb-[3 0px]"> - -></p>
+    </section>
+    <section id="" class="flex pt-[40px]">
+      <div> <img src="images/moça_amarelo.png" alt="" class=" h-[964px] w-[991px] static">
+      <img src="images/estrela.png" alt="" class="">
     </div>
+      <div class="bg-[#F9DF56] text-5xl font-ala">
+        <h1>PAYDAY<BR>SALE NOW</BR></h1>
+        <H3>Spend minimal $100 get 30% off <BR>voucher code for your next purchase</BR></H3>
+        <h3>1 June - 10 June 2021</h3>
+        <a href="" class="leading-[62px] bg-black text-white rounded-[8px] text-4xl hover:bg-white hover:text-black duration-[400ms]"> SHOP NOW</a>
+      </div>
+
     </section>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-</main>
+  </main>
 </body>
 
 </html>
